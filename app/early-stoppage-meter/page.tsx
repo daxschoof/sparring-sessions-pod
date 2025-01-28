@@ -24,6 +24,7 @@ const EarlyStoppageMeter = () => {
           <button
             className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700"
             onClick={() => setMeterValue(val.setValue)}
+            key={val.display}
           >
             {val.display}
           </button>
