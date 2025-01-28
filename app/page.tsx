@@ -11,9 +11,9 @@ const Home = () => {
         <a
           href="https://www.youtube.com/@SparringSessionsPod"
           target="_blank"
-          className="flex items-center gap-2 w-auto h-auto max-sm:max-h-[80] max-sm:max-w-[80] max-md:h-[120] max-md:w-[120]"
+          className="flex items-center gap-2 max-sm:max-h-[80] max-sm:max-w-[80] max-md:h-[120] max-md:w-[120]"
         >
-          <Image src="/Youtube.png" alt="Youtube" width={140} height={140} />
+          <Image src="/Youtube.png" alt="Youtube" width={140} height={97} />
         </a>
         <a
           href="https://www.instagram.com/sparring_sessions"
