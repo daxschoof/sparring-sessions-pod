@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-20 max-sm:mt-40">
       <h1 className="max-sm:text-4xl text-6xl font-bold max-sm:font-extrabold text-[#1d324f] min-h-16 w-screen text-center overflow-hidden">
@@ -21,7 +21,7 @@ export default function Home() {
           className="flex items-center gap-2 max-sm:max-h-[60] max-sm:max-w-[60] max-md:h-[100] max-md:w-[100]"
         >
           <Image
-            src="/instagram.png"
+            src="/Instagram.png"
             alt="Instagram"
             width={120}
             height={120}
@@ -32,9 +32,11 @@ export default function Home() {
           target="_blank"
           className="flex items-center gap-2 max-sm:max-h-[60] max-sm:max-w-[60] max-md:h-[100] max-md:w-[100]"
         >
-          <Image src="/spotify.png" alt="Spotify" width={120} height={120} />
+          <Image src="/Spotify.png" alt="Spotify" width={120} height={120} />
         </a>
       </div>
     </div>
   );
-}
+};
+
+export default Home;
