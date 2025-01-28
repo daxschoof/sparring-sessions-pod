@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center gap-20">
+    <div className="flex flex-col items-center justify-center gap-20 max-sm:mt-40">
       <h1 className="max-sm:text-4xl text-6xl font-bold max-sm:font-extrabold text-[#1d324f] min-h-16 w-screen text-center overflow-hidden">
         Sparring Sessions Podcast
       </h1>
