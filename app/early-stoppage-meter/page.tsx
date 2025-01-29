@@ -25,7 +25,7 @@ const EarlyStoppageMeter = () => {
         className="text-6xl font-extrabold text-[#d22f36] capitalize"
         style={{ fontFamily: "'Comic Sans', cursive" }}
       >
-        YE' OLDE EARLY STOPPAGE METER
+        YE&apos; OLDE EARLY STOPPAGE METER
       </h1>
       <Meter values={earlyStoppageValues} />
     </div>
