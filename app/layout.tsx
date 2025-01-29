@@ -30,15 +30,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-screen h-screen overflow-clip`}
       >
         <div className="flex-1 bg-gradient-to-br from-[#eadabe] to-[#1d314e] from-30% content-center justify-items-center min-h-screen pt-8 pb-20 gap-16 h-screen w-screen">
-          <div className="fixed inline-block top-4 right-4 rounded-3xl overflow-hidden max-sm:w-[100] max-sm:h-[100]">
-            <Image
-              src="/Sparring_Sessions_Logo.jpg"
-              alt="Sparring Sessions Logo"
-              width={150}
-              height={150}
-            />
-          </div>
           {children}
+        </div>
+
+        <div className="absolute inline-block top-4 right-4 rounded-3xl overflow-hidden max-sm:w-[100] max-sm:h-[100]">
+          <Image
+            src="/images/logos/Sparring_Sessions_Logo.jpg"
+            alt="Sparring Sessions Logo"
+            width={150}
+            height={153}
+          />
         </div>
       </body>
     </html>

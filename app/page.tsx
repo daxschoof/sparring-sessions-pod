@@ -13,7 +13,12 @@ const Home = () => {
           target="_blank"
           className="flex items-center gap-2 max-sm:max-h-[80] max-sm:max-w-[80] max-md:h-[120] max-md:w-[120]"
         >
-          <Image src="/Youtube.png" alt="Youtube" width={140} height={97} />
+          <Image
+            src="/images/logos/Youtube.png"
+            alt="Youtube"
+            width={140}
+            height={97}
+          />
         </a>
         <a
           href="https://www.instagram.com/sparring_sessions"
@@ -21,7 +26,7 @@ const Home = () => {
           className="flex items-center gap-2 max-sm:max-h-[60] max-sm:max-w-[60] max-md:h-[100] max-md:w-[100]"
         >
           <Image
-            src="/Instagram.png"
+            src="/images/logos/Instagram.png"
             alt="Instagram"
             width={120}
             height={120}
@@ -32,7 +37,12 @@ const Home = () => {
           target="_blank"
           className="flex items-center gap-2 max-sm:max-h-[60] max-sm:max-w-[60] max-md:h-[100] max-md:w-[100]"
         >
-          <Image src="/Spotify.png" alt="Spotify" width={120} height={120} />
+          <Image
+            src="/images/logos/Spotify.png"
+            alt="Spotify"
+            width={120}
+            height={120}
+          />
         </a>
       </div>
     </div>
