@@ -19,8 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 
-  .pointer {
-    transform: translate(609px, 550px);
+  svg {
+    overflow: visible;
   }
 
   .tick-line {
